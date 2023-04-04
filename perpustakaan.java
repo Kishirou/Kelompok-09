@@ -120,8 +120,6 @@ public class perpustakaan {
             } else if (choice.equals("2")) {
                 System.out.print("Masukkan ID buku: ");
                 String bookId = scanner.next();
-                int jumlah = (int) books.get(bookId).get("jumlah");
-                System.out.println(jumlah);
                 pinjam(bookId);
             } else if (choice.equals("3")) {
                 System.out.print("Masukkan ID buku: ");
